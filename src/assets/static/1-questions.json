@@ -1,0 +1,217 @@
+[
+    {
+        "beschreibung": "Einsatzgebiete verteilter Systeme",
+        "frageStellung": "Was sind Einsatzgebiete verteilter Systeme?",
+        "antwort": "Unterschiedliche Einsatzgebiete, in denen verteilte Systeme eingesetzt werden."
+    },
+    {
+        "beschreibung": "Betriebliche Szenarien",
+        "frageStellung": "Was sind betriebliche Szenarien?",
+        "antwort": "Verschiedene Szenarien im betrieblichen Umfeld, in denen Anwendungssysteme eingesetzt werden."
+    },
+    {
+        "beschreibung": "Begriffe verteilter Systeme",
+        "frageStellung": "Welche Begriffe werden für verteilte Systeme verwendet?",
+        "antwort": "Verschiedene Begriffe zur Bezeichnung von verteilten Systemen, wie z.B. Supply-Chain, eBusiness, EDIB2B, B2C, C2C."
+    },
+    {
+        "beschreibung": "Prinzip der Integration",
+        "frageStellung": "Was ist das Prinzip der Integration?",
+        "antwort": "Das Prinzip, wie verschiedene Systeme horizontal und vertikal miteinander integriert werden."
+    },
+    {
+        "beschreibung": "Erwartungen und Herausforderungen verteilter Systeme",
+        "frageStellung": "Was sind Erwartungen und Herausforderungen verteilter Systeme?",
+        "antwort": "Unterschiedliche Erwartungen und Herausforderungen im Zusammenhang mit verteilter Systeme."
+    },
+    {
+        "beschreibung": "Ziele der Softwareentwicklung",
+        "frageStellung": "Was sind Ziele der Softwareentwicklung?",
+        "antwort": "Verschiedene Ziele, die mit der Softwareentwicklung verfolgt werden."
+    },
+    {
+        "beschreibung": "Potenzielle Ziele der Softwareentwicklung",
+        "frageStellung": "Was sind potenzielle Ziele der Softwareentwicklung?",
+        "antwort": "Mögliche Ziele, die bei der Softwareentwicklung angestrebt werden können."
+    },
+    {
+        "beschreibung": "Beispiel für ein Ziel der Softwareentwicklung",
+        "frageStellung": "Können Sie ein Beispiel für ein Ziel der Softwareentwicklung nennen?",
+        "antwort": "Ein konkretes Beispiel für ein Ziel, das mit der Softwareentwicklung erreicht werden soll."
+    },
+    {
+        "beschreibung": "Systemstruktur",
+        "frageStellung": "Was ist die Systemstruktur?",
+        "antwort": "Die grundlegende Struktur und Organisation des Systems."
+    },
+    {
+        "beschreibung": "Beginn der Softwareentwicklung",
+        "frageStellung": "Was geschieht zu Beginn der Softwareentwicklung?",
+        "antwort": "Der Prozess und die Aktivitäten, die zu Beginn der Softwareentwicklung stattfinden."
+    },
+    {
+        "beschreibung": "Erwartungen und Herausforderungen",
+        "frageStellung": "Was sind Erwartungen und Herausforderungen bei verteilter Systeme?",
+        "antwort": "Die Erwartungen und Herausforderungen, die im Zusammenhang mit verteilter Systeme auftreten."
+    },
+    {
+        "beschreibung": "Projektdefinition",
+        "frageStellung": "Was ist eine Projektdefinition?",
+        "antwort": "Die Definition und Beschreibung eines Projekts und seiner Ziele."
+    },
+    {
+        "beschreibung": "Aspekte einer Projektdefinition",
+        "frageStellung": "Was gehört zu einer Projektdefinition?",
+        "antwort": "Die verschiedenen Aspekte und Bestandteile, die in einer Projektdefinition enthalten sein können."
+    },
+    {
+        "beschreibung": "Betriebliche Anwendungssysteme",
+        "frageStellung": "Was sind betriebliche Anwendungssysteme?",
+        "antwort": "Verschiedene Arten von Anwendungssystemen, die in betrieblichen Umgebungen eingesetzt werden."
+    },
+    {
+        "beschreibung": "Beispiele für betriebliche Anwendungssysteme",
+        "frageStellung": "Können Sie Beispiele für betriebliche Anwendungssysteme nennen?",
+        "antwort": "Konkrete Beispiele für Anwendungssysteme, die in betrieblichen Kontexten genutzt werden."
+    },
+    {
+        "beschreibung": "CAN-Bus",
+        "frageStellung": "Was ist ein CAN-Bus?",
+        "antwort": "Eine Erläuterung des CAN-Bus und seiner Funktionen."
+    },
+    {
+        "beschreibung": "Fabrik-Szenarien",
+        "frageStellung": "Was sind Beispiele für Fabrik-Szenarien?",
+        "antwort": "Verschiedene Szenarien und Anwendungsfälle in der Fabrikumgebung."
+    },
+    {
+        "beschreibung": "Industrieautomation",
+        "frageStellung": "Was ist Industrieautomation?",
+        "antwort": "Die Automation von industriellen Prozessen und Anlagen."
+    },
+    {
+        "beschreibung": "Beispiele für Industrieautomation",
+        "frageStellung": "Können Sie Beispiele für Industrieautomation nennen?",
+        "antwort": "Konkrete Beispiele für die Anwendung von Industrieautomation in verschiedenen Bereichen."
+    },
+    {
+        "beschreibung": "Verteilte Automatisierungssysteme",
+        "frageStellung": "Was sind verteilte Automatisierungssysteme?",
+        "antwort": "Systeme, die Automatisierungsfunktionen über verteilte Netzwerke hinweg ausführen."
+    },
+    {
+        "beschreibung": "Erwartungen an verteilte Automatisierungssysteme",
+        "frageStellung": "Was sind die Erwartungen an verteilte Automatisierungssysteme?",
+        "antwort": "Die Anforderungen und Erwartungen, die an verteilte Automatisierungssysteme gestellt werden."
+    },
+    {
+        "beschreibung": "Herausforderungen von verteilten Automatisierungssystemen",
+        "frageStellung": "Was sind die Herausforderungen von verteilten Automatisierungssystemen?",
+        "antwort": "Die Schwierigkeiten und Probleme, die bei der Umsetzung und Nutzung von verteilten Automatisierungssystemen auftreten können."
+    },
+    {
+        "beschreibung": "Crosscompiling",
+        "frageStellung": "Was ist Crosscompiling?",
+        "antwort": "Eine Erläuterung des Crosscompiling-Prozesses und seiner Bedeutung."
+    },
+    {
+        "beschreibung": "Standortübergreifende Anwendungssysteme",
+        "frageStellung": "Was sind standortübergreifende Anwendungssysteme?",
+        "antwort": "Systeme, die über verschiedene Standorte hinweg eingesetzt und genutzt werden."
+    },
+    {
+        "beschreibung": "Erwartungen an Standorte bei standortübergreifenden Anwendungssysteme",
+        "frageStellung": "Was sind die Erwartungen an Standorte bei standortübergreifenden Anwendungssysteme?",
+        "antwort": "Die Anforderungen und Erwartungen, die an die Standorte von standortübergreifenden Anwendungssystemen gestellt werden."
+    },
+    {
+        "beschreibung": "Erwartungen an den Außendienst bei standortübergreifenden Anwendungssystemen",
+        "frageStellung": "Was sind die Erwartungen an den Außendienst bei standortübergreifenden Anwendungssystemen?",
+        "antwort": "Die Anforderungen und Erwartungen an den Außendienst bei der Nutzung von standortübergreifenden Anwendungssystemen."
+    },
+    {
+        "beschreibung": "Herausforderungen von standortübergreifenden Anwendungssystemen",
+        "frageStellung": "Was sind die Herausforderungen von standortübergreifenden Anwendungssystemen?",
+        "antwort": "Die Schwierigkeiten und Probleme, die bei der Nutzung und Implementierung von standortübergreifenden Anwendungssystemen auftreten können."
+    },
+    {
+        "beschreibung": "Unternehmensübergreifende Anwendungssysteme",
+        "frageStellung": "Was sind unternehmensübergreifende Anwendungssysteme?",
+        "antwort": "Systeme, die über die Grenzen eines einzelnen Unternehmens hinausgehen und von mehreren Unternehmen gemeinsam genutzt werden."
+    },
+    {
+        "beschreibung": "Systembeschreibung",
+        "frageStellung": "Was ist eine Systembeschreibung?",
+        "antwort": "Die Beschreibung und Erläuterung eines Systems sowie seiner Eigenschaften und Funktionen."
+    },
+    {
+        "beschreibung": "Systemsicht",
+        "frageStellung": "Was ist die Systemsicht?",
+        "antwort": "Die Perspektive und Sichtweise, aus der ein System betrachtet und beschrieben wird."
+    },
+    {
+        "beschreibung": "Server-Architektur",
+        "frageStellung": "Was ist die Server-Architektur?",
+        "antwort": "Die Architektur und Organisation von Servern innerhalb eines Systems."
+    },
+    {
+        "beschreibung": "Internet-Architektur",
+        "frageStellung": "Was ist die Internet-Architektur?",
+        "antwort": "Die Architektur und Struktur des Internets sowie seiner Komponenten und Protokolle."
+    },
+    {
+        "beschreibung": "Schnittstellen ohne aktuelle Verbindung",
+        "frageStellung": "Was sind Schnittstellen ohne aktuelle Verbindung?",
+        "antwort": "Schnittstellen und Verbindungen zwischen Komponenten, die derzeit nicht aktiv sind, aber potenziell genutzt werden können."
+    },
+    {
+        "beschreibung": "Herausforderungen von UML-Diagrammen",
+        "frageStellung": "Was sind Herausforderungen von UML-Diagrammen?",
+        "antwort": "Die Schwierigkeiten und Probleme, die bei der Erstellung und Verwendung von UML-Diagrammen auftreten können."
+    },
+    {
+        "beschreibung": "Verteilung von Anwendungen",
+        "frageStellung": "Was ist die Verteilung von Anwendungen?",
+        "antwort": "Die Verteilung und Bereitstellung von Anwendungen auf verschiedenen Rechnern und Systemen."
+    },
+    {
+        "beschreibung": "Funktionale Architektur",
+        "frageStellung": "Was ist die Funktionale Architektur?",
+        "antwort": "Die Architektur und Struktur einer Anwendung aus funktionaler Sicht."
+    },
+    {
+        "beschreibung": "Geometrische Sicht",
+        "frageStellung": "Was ist die Geometrische Sicht?",
+        "antwort": "Die Darstellung und Betrachtung eines Systems aus geometrischer Perspektive."
+    },
+    {
+        "beschreibung": "Aspekte der Sicherheit",
+        "frageStellung": "Was sind Aspekte der Sicherheit?",
+        "antwort": "Verschiedene Sicherheitsaspekte und -maßnahmen, die bei der Systementwicklung berücksichtigt werden müssen."
+    },
+    {
+        "beschreibung": "System-Zugangsmöglichkeiten",
+        "frageStellung": "Was sind System-Zugangsmöglichkeiten?",
+        "antwort": "Die verschiedenen Möglichkeiten und Methoden, auf ein System zuzugreifen und es zu nutzen."
+    },
+    {
+        "beschreibung": "Cloud-Modelle",
+        "frageStellung": "Was sind Cloud-Modelle?",
+        "antwort": "Verschiedene Modelle und Konzepte im Zusammenhang mit Cloud-Computing und -Diensten."
+    },
+    {
+        "beschreibung": "Cloud Computing",
+        "frageStellung": "Was ist Cloud Computing?",
+        "antwort": "Die Bereitstellung und Nutzung von IT-Ressourcen und -Diensten über das Internet."
+    },
+    {
+        "beschreibung": "Vorteile von Cloud Computing",
+        "frageStellung": "Was sind die Vorteile von Cloud Computing?",
+        "antwort": "Die positiven Aspekte und Vorteile, die mit der Nutzung von Cloud-Computing verbunden sind."
+    },
+    {
+        "beschreibung": "Nachteile von Cloud Computing",
+        "frageStellung": "Was sind die Nachteile von Cloud Computing?",
+        "antwort": "Die negativen Aspekte und Herausforderungen, die mit der Nutzung von Cloud-Computing verbunden sind."
+    }
+]

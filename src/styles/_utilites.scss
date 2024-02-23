@@ -1,0 +1,90 @@
+$base_value: 0.5em;
+
+$values: (
+    "0": 0,
+    "1": $base_value,
+    "2": $base_value * 2,
+    "3": $base_value * 3,
+    "4": $base_value * 4,
+    "5": $base_value * 5,
+    "6": $base_value * 6,
+    "7": $base_value * 7,
+    "8": $base_value * 8,
+    "9": $base_value * 9,
+);
+
+@each $key, $value in $values {
+    /* PADDING */
+
+    //Padding all
+    .p-#{$key} {
+        padding: $value;
+    }
+
+    //Padding left
+    .p-l-#{$key} {
+        padding-left: $value;
+    }
+
+    //Padding right
+    .p-r-#{$key} {
+        padding-left: $value;
+    }
+
+    //Padding top
+    .p-t-#{$key} {
+        padding-top: $value;
+    }
+
+    //Padding bottom
+    .p-b-#{$key} {
+        padding-bottom: $value;
+    }
+
+    //Padding horizontal
+    .p-h-#{$key} {
+        padding: 0 $value;
+    }
+
+    //Padding vertical
+    .p-v-#{$key} {
+        padding: $value 0;
+    }
+
+    /* Margin */
+    
+    //Padding all
+    .m-#{$key} {
+        margin: $value;
+    }
+
+    //Padding left
+    .m-l-#{$key} {
+        margin: $value;
+    }
+
+    //Padding right
+    .m-r-#{$key} {
+        margin-left: $value;
+    }
+
+    //Padding top
+    .m-t-#{$key} {
+        margin-top: $value;
+    }
+
+    //Padding bottom
+    .m-b-#{$key} {
+        margin-bottom: $value;
+    }
+
+    //Padding horizontal
+    .m-h-#{$key} {
+        margin: 0 $value;
+    }
+
+    //Padding vertical
+    .m-v-#{$key} {
+        margin: $value 0;
+    }
+}

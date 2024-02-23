@@ -1,0 +1,53 @@
+<form class="edit-question-container" (ngSubmit)="addQuestion(questionForm)"  #questionForm="ngForm">
+  <!-- Controls -->
+  <div class="row d-flex justify-sb align-c">
+    <!-- Back Arrow-->
+    <div (click)="backToQuestionView()">
+      <span class="material-symbols-outlined txt-500 txt-headline txt-prim">
+        arrow_back
+      </span>
+    </div>
+    <!-- Question Name -->
+    <span class="txt-title txt-500 txt-prim">Frage hinzufügen</span>
+    <span class="material-symbols-outlined d-hidden">
+      arrow_back
+    </span>
+  </div>
+
+  <!-- Question Info -->
+  <div class="row border-none">
+    <!-- Description -->
+    <div class="input-area col-xs-12">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Beschreibung</span>
+      </div>
+      <input ngModel required name="beschreibung" cols="30" rows="10" class="max-height-50">
+    </div>
+  </div>
+
+  <!-- Question -->
+  <div class="row">
+    <div class="input-area col-xs-12">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Frage</span>
+      </div>
+      <input ngModel required name="frage" cols="30" rows="10" class="max-height-50">
+    </div>
+  </div>
+
+  <!-- Answer -->
+  <div class="row">
+    <div class="input-area col-xs-12">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Antwort</span>
+      </div>
+      <input ngModel required name="antwort" cols="30" rows="10" class="max-height-200">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 btn-filled-prim-700" (click)="addQuestion(questionForm)">
+      <span>Speichern</span>
+    </div>
+  </div>
+</form>

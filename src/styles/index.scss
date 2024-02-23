@@ -1,0 +1,42 @@
+:root{
+    --prim: #303030,
+    --sec: #424242,
+    --txt-prim: #FFFFFF,
+    --txt-sec: #C7C7C7,
+}
+
+/* Colors */
+@import './_colors';
+
+/* Utilites */
+@import './_utilites';
+
+/* Display */ 
+@import './_display';
+
+/* Media Queries - Breakpoints */
+@import './_breakpoints';
+
+/* border radius */
+@import './_border_radius';
+
+/* Grid System */
+@import './_grid';
+
+/* Typography */
+@import './_typography';
+
+/* Shadows */
+@import './_shadows';
+
+/* Buttons */
+@import './_buttons';
+
+/* Inputs */
+@import './_n_inputs';
+
+/* Navbar */
+@import './n_navbar';
+
+/* Loaders */
+@import './n_loaders';

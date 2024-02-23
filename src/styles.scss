@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+@use "src/styles/index" as *;
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    -ms-overflow-style: none;  /* für Internet Explorer und Edge */
+    scrollbar-width: none;  /* für Firefox */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@mixin custom-columns {
+  @extend .col-xs-12;
+  @extend .col-sm-10;
+  @extend .col-md-8;
+  @extend .col-lg-7;
+  // @extend .col-xl-6;
+}
+
+.col-custom {
+  @include custom-columns;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.bg-prim {
+  background-color: #303030;
+}
+.bg-sec {
+  background-color: #424242;
+}
+.txt-prim {
+  color: #ffffff;
+}
+
+.txt-sec {
+  color: #c7c7c7;
+}
+
+.height-44 {
+  height: 44px;
+}
+
+span {
+  user-select: none;
+}
+
+.d-hidden {
+  visibility: hidden;
+}
+
+.border-none {
+  border: 0px;
+}
+
+.c-p {
+  cursor: pointer;
+}
+
+.hover-prim{
+  &:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: lighten($color: map-get($map: $colors, $key: "prim"), $amount: 5);
+  }
+}
+
+.hover-sec{
+  &:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: lighten($color: map-get($map: $colors, $key: "sec"), $amount: 5);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

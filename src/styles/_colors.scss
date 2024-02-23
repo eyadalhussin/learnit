@@ -1,0 +1,54 @@
+$colors: (
+  prim: #303030,
+  sec: #424242,
+  txt-prim: #FFFFFF,
+  txt-sec: #C7C7C7,
+
+  prim-50: #f2f5fc,
+  prim-100: #e1e8f8,
+  prim-200: #cbd8f2,
+  prim-300: #a6bfea,
+  prim-400: #7c9dde,
+  prim-500: #5d7dd4,
+  prim-600: #4963c7,
+  prim-700: #3f51b5,
+  prim-800: #394494,
+  prim-900: #323d76,
+  prim-950: #222749,
+
+  succ-50: #eefbf3,
+  succ-100: #d5f6e1,
+  succ-200: #aeecc7,
+  succ-300: #7adba8,
+  succ-400: #43c484,
+  succ-500: #25c279,
+  succ-600: #138854,
+  succ-700: #0f6d45,
+  succ-800: #0f5639,
+  succ-900: #0d4730,
+  succ-950: #06281b,
+
+  warn-50:#fef2f3,
+  warn-100: #fee2e3,
+  warn-200: #fdcbcd,
+  warn-300: #faa7ab,
+  warn-400: #f67379,
+  warn-500: #ec474f,
+  warn-600: #d92932,
+  warn-700: #b61f26,
+  warn-800: #971d23,
+  warn-900: #7d1f24,
+  warn-950: #440b0e
+);
+
+@each $key, $value in $colors {
+  .c-#{$key} {
+    color: $value;
+  }
+};
+
+@each $key, $value in $colors {
+  .bg-#{$key} {
+      background-color: $value;
+  }
+};

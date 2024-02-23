@@ -1,0 +1,162 @@
+[
+    {
+        "beschreibung": "Ziele einer Projektdefinition",
+        "frageStellung": "Was sind Ziele einer Projektdefinition?",
+        "antwort": "Die Ziele und Zwecke, die mit der Definition und Beschreibung eines Projekts verfolgt werden."
+    },
+    {
+        "beschreibung": "Aufgabenstellung",
+        "frageStellung": "Was ist die Aufgabenstellung?",
+        "antwort": "Die Beschreibung der Aufgaben und Ziele, die im Rahmen eines Projekts bearbeitet werden sollen."
+    },
+    {
+        "beschreibung": "Qualitätsziele",
+        "frageStellung": "Was sind Qualitätsziele?",
+        "antwort": "Die festgelegten Ziele und Anforderungen in Bezug auf die Qualität eines Systems oder einer Lösung."
+    },
+    {
+        "beschreibung": "Kurzfassung architekturrelevanter Anforderungen",
+        "frageStellung": "Was ist die Kurzfassung architekturrelevanter Anforderungen?",
+        "antwort": "Eine Zusammenfassung der wichtigen Anforderungen an die Architektur einer Lösung."
+    },
+    {
+        "beschreibung": "Stakeholder",
+        "frageStellung": "Wer sind die Stakeholder?",
+        "antwort": "Die verschiedenen Interessengruppen und Beteiligten, die von einem Projekt betroffen sind oder Einfluss darauf haben."
+    },
+    {
+        "beschreibung": "Fachlicher Kontext",
+        "frageStellung": "In welchem fachlichen Kontext arbeitet das System?",
+        "antwort": "Die fachliche Umgebung und der Anwendungsbereich, in dem das System eingesetzt wird."
+    },
+    {
+        "beschreibung": "Technisches Umfeld",
+        "frageStellung": "In welchem technischen Umfeld arbeitet das System?",
+        "antwort": "Die technischen Rahmenbedingungen und Umgebungen, in denen das System betrieben wird."
+    },
+    {
+        "beschreibung": "Funktionsweise der Lösung",
+        "frageStellung": "Wie funktioniert die Lösung?",
+        "antwort": "Eine Beschreibung der Funktionsweise und Arbeitsweise der Lösung oder des Systems."
+    },
+    {
+        "beschreibung": "Fundamentale Lösungsansätze",
+        "frageStellung": "Was sind fundamentale Lösungsansätze?",
+        "antwort": "Die grundlegenden Ansätze und Strategien, die bei der Entwicklung einer Lösung verfolgt werden."
+    },
+    {
+        "beschreibung": "Einbindung des Systems in die Umgebung",
+        "frageStellung": "Was ist die Einbindung des Systems in die Umgebung?",
+        "antwort": "Die Integration und Verknüpfung des Systems mit seiner Umgebung und anderen Systemen."
+    },
+    {
+        "beschreibung": "Statische Struktur des Systems",
+        "frageStellung": "Was ist die Statische Struktur des Systems?",
+        "antwort": "Die festgelegte und nicht veränderbare Struktur und Zusammensetzung des Systems."
+    },
+    {
+        "beschreibung": "Aufbau aus Implementierungsteilen",
+        "frageStellung": "Was ist der Aufbau aus Implementierungsteilen?",
+        "antwort": "Die Struktur und Komposition des Systems aus einzelnen implementierten Teilen und Komponenten."
+    },
+    {
+        "beschreibung": "Wirken der Bausteine zusammen",
+        "frageStellung": "Wie wirken die Bausteine zusammen?",
+        "antwort": "Die Interaktion und Zusammenarbeit der einzelnen Komponenten und Bausteine des Systems."
+    },
+    {
+        "beschreibung": "Abgelegte Bausteine auf Hardware",
+        "frageStellung": "Auf welcher Hardware werden die Bausteine abgelegt?",
+        "antwort": "Die Hardwareumgebung, auf der die verschiedenen Bausteine und Komponenten des Systems bereitgestellt werden."
+    },
+    {
+        "beschreibung": "Zweck der Dokumentation",
+        "frageStellung": "Was ist der Zweck der Dokumentation?",
+        "antwort": "Die Gründe und Ziele, die mit der Dokumentation eines Systems oder Projekts verfolgt werden."
+    },
+    {
+        "beschreibung": "Systemsicht",
+        "frageStellung": "Was ist die Systemsicht?",
+        "antwort": "Die Perspektive und Sichtweise, aus der ein System betrachtet und beschrieben wird."
+    },
+    {
+        "beschreibung": "Beschreibung Hardware-Komponenten und Vernetzung",
+        "frageStellung": "Was umfasst die Beschreibung Hardware-Komponenten und Vernetzung?",
+        "antwort": "Die Darstellung und Erläuterung der Hardwarekomponenten und ihrer Vernetzung innerhalb des Systems."
+    },
+    {
+        "beschreibung": "Server-Architektur",
+        "frageStellung": "Was ist die Server-Architektur?",
+        "antwort": "Die Architektur und Organisation von Servern innerhalb eines Systems."
+    },
+    {
+        "beschreibung": "Internet-Architektur",
+        "frageStellung": "Was ist die Internet-Architektur?",
+        "antwort": "Die Architektur und Struktur des Internets sowie seiner Komponenten und Protokolle."
+    },
+    {
+        "beschreibung": "Schnittstellen ohne aktuelle Verbindung",
+        "frageStellung": "Was sind Schnittstellen ohne aktuelle Verbindung?",
+        "antwort": "Schnittstellen und Verbindungen zwischen Komponenten, die derzeit nicht aktiv sind, aber potenziell genutzt werden können."
+    },
+    {
+        "beschreibung": "Herausforderungen Systemsicht UML-Diagramme",
+        "frageStellung": "Was sind Herausforderungen Systemsicht UML-Diagramme?",
+        "antwort": "Die Schwierigkeiten und Probleme, die bei der Erstellung und Verwendung von UML-Diagrammen auftreten können."
+    },
+    {
+        "beschreibung": "Verteilung von Anwendungen",
+        "frageStellung": "Was ist die Verteilung von Anwendungen?",
+        "antwort": "Die Verteilung und Bereitstellung von Anwendungen auf verschiedenen Rechnern und Systemen."
+    },
+    {
+        "beschreibung": "Funktionale Architektur",
+        "frageStellung": "Was ist die Funktionale Architektur?",
+        "antwort": "Die Architektur und Struktur einer Anwendung aus funktionaler Sicht."
+    },
+    {
+        "beschreibung": "Geometrische Sicht",
+        "frageStellung": "Was ist die Geometrische Sicht?",
+        "antwort": "Die Darstellung und Betrachtung eines Systems aus geometrischer Perspektive."
+    },
+    {
+        "beschreibung": "Möglichkeiten zur Darstellung geometrischer Sicht in der UML",
+        "frageStellung": "Welche Möglichkeiten gibt es, die geometrische Sicht in der UML darzustellen?",
+        "antwort": "Die verschiedenen Methoden und Techniken, um die geometrische Sicht in UML-Diagrammen zu visualisieren."
+    },
+    {
+        "beschreibung": "Aspekte der Sicherheit",
+        "frageStellung": "Was sind Aspekte der Sicherheit?",
+        "antwort": "Verschiedene Sicherheitsaspekte und -maßnahmen, die bei der Systementwicklung berücksichtigt werden müssen."
+    },
+    {
+        "beschreibung": "System-Zugangsmöglichkeiten",
+        "frageStellung": "Was sind System-Zugangsmöglichkeiten?",
+        "antwort": "Die verschiedenen Möglichkeiten und Methoden, auf ein System zuzugreifen und es zu nutzen."
+    },
+    {
+        "beschreibung": "Szenarien",
+        "frageStellung": "Was sind Szenarien?",
+        "antwort": "Verschiedene Situationen und Abläufe, die bei der Nutzung und Entwicklung eines Systems auftreten können."
+    },
+    {
+        "beschreibung": "Cloud-Modelle",
+        "frageStellung": "Was sind Cloud-Modelle?",
+        "antwort": "Verschiedene Modelle und Konzepte im Zusammenhang mit Cloud-Computing und -Diensten."
+    },
+    {
+        "beschreibung": "Cloud Computing",
+        "frageStellung": "Was ist Cloud Computing?",
+        "antwort": "Die Bereitstellung und Nutzung von IT-Ressourcen und -Diensten über das Internet."
+    },
+    {
+        "beschreibung": "Vorteile von Cloud Computing",
+        "frageStellung": "Was sind die Vorteile von Cloud Computing?",
+        "antwort": "Die positiven Aspekte und Vorteile, die mit der Nutzung von Cloud-Computing verbunden sind."
+    },
+    {
+        "beschreibung": "Nachteile von Cloud Computing",
+        "frageStellung": "Was sind die Nachteile von Cloud Computing?",
+        "antwort": "Die negativen Aspekte und Herausforderungen, die mit der Nutzung von Cloud-Computing verbunden sind."
+    }
+]

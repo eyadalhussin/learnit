@@ -1,0 +1,11 @@
+
+@import '/src/styles/breakpoints';
+@import '/src/styles/grid';
+
+.questions-container{
+    @extend .container;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

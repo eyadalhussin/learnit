@@ -1,0 +1,72 @@
+@import './_colors.scss';
+
+@mixin placeholder_active($colors_key){
+    top: -10px;
+    font-size: 14px;
+    color: map-get($map: $colors, $key: $colors_key);
+    background-color: #ffffff;
+}
+
+@mixin field_border($colors_key){
+    border: 2px solid map-get($map: $colors, $key: $colors_key);
+}
+
+.input-container{
+    position: relative;
+    .input-field {
+        all: unset;
+        box-sizing: border-box;
+        height: 44px;
+        outline: none;
+        border-radius: 4px;
+        padding: 10px;
+        width: 100%;
+
+        box-shadow: 1px 1px 5px rgba($color: #000000, $alpha: 0.05);
+
+        &:not(.ng-touched){
+            border: 1px solid map-get($map: $colors, $key: 'black-light');
+            +.placeholder{
+                color: map-get($map: $colors, $key: "black-light");
+            }
+        }
+
+        &.ng-touched{
+            @include field_border('black-text-dark');
+            +.placeholder{
+                @include placeholder_active('black-text-dark');
+            }
+        }
+
+        &.ng-valid{
+            @include field_border('prim-700');
+            +.placeholder{
+                @include placeholder_active('prim-700');
+            }
+        }
+
+        &.ng-invalid.ng-touched{
+            @include field_border('warn-700');
+            +.placeholder{
+                @include placeholder_active('warn-700');
+            }
+        }
+    }
+
+    .placeholder{
+        position: absolute;
+        top: 12px;
+        left: 8px;
+        transition: 0.2s ease;
+        pointer-events: none;
+        padding: 0 2px;
+        font-size: 16px;
+    }
+    
+    .input-field:focus + .placeholder{
+        top: -10px;
+        font-size: 14px;
+        background-color: #ffffff;
+    }
+
+}

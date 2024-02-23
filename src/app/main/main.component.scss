@@ -1,0 +1,10 @@
+@import '/src/styles/breakpoints';
+@import '/src/styles/grid';
+
+.main-container{
+    @extend .container;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

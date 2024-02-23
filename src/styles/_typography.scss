@@ -1,0 +1,41 @@
+$font_sizes: (
+    "txt-display-4": 112px,
+    "txt-display-3": 56px,
+    "txt-display-2": 45px,
+    "txt-display-1": 34px,
+    "txt-headline": 24px,
+    "txt-title": 20px,
+    "txt-subhead": 16px,
+    "txt-body": 14px,
+    "txt-caption": 12px
+);
+
+$font_weight: (
+    "txt-300": 300,
+    "txt-400": 400,
+    "txt-500": 500,
+    "txt-600": 600,
+    "txt-700": 700,
+);
+
+.txt-italic{
+    font-style: italic;
+}
+
+@each $key, $value in $font_sizes {
+    .#{$key} {
+        font-size: $value;
+    }
+}
+
+@each $key, $value in $font_weight {
+    .#{$key} {
+        font-weight: $value;
+    }
+}
+
+
+
+
+
+

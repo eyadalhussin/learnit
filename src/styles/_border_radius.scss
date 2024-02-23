@@ -1,0 +1,48 @@
+$base_border_radius_value: 5px;
+
+@for $i from 0 through 10 {
+
+    /*border_radius_all*/
+    .border-r-#{$i} {
+        border-radius: $i * $base_border_radius_value;
+    }
+
+    /*Top*/
+    .border-rt-#{$i} {
+        border-top-left-radius: $i * $base_border_radius_value;
+        border-top-right-radius: $i * $base_border_radius_value;
+    }
+
+    /*Top Left*/
+    .border-rtl-#{$i} {
+        border-top-left-radius: $i * $base_border_radius_value;
+    }
+
+    /*Top Right*/
+    .border-rtr-#{$i} {
+        border-top-right-radius: $i * $base_border_radius_value;
+    }
+
+    /*Bottom*/
+    .border-rb-#{$i}{
+        border-bottom-left-radius: $i * $base_border_radius_value;
+        border-bottom-right-radius: $i * $base_border_radius_value;
+    }
+
+    /*Bottom Left*/
+    .border-rbl-#{$i} {
+        border-bottom-left-radius: $i * $base_border_radius_value;
+    }
+
+    /*Bottom Right*/
+    .border-rbr-#{$i} {
+        border-bottom-right-radius: $i * $base_border_radius_value;
+    }
+
+
+
+}
+
+.border-r-100 {
+    border-radius: 100%;
+}

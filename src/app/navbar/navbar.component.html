@@ -1,0 +1,25 @@
+<div class="navbar">
+  <div class="navbar-upper">
+    <div class="navbar-logo">
+      <h3 class="txt-headline c-txt-prim">LearnIT</h3>
+    </div>
+    <div class="navbar-controls">
+      <span class="material-symbols-outlined txt-title c-txt-prim">
+        light_mode
+      </span>
+    </div>
+  </div>
+  <div class="sub-navbar">
+    <div class="navs">
+      <div class="nav" [ngClass]="{'active': currentNav == 'Subjects' || currentNav == 'Questions' || currentNav == 'Add Question' || currentNav == 'Edit Question'}" (click)="setNav('Subjects')">
+        <span class="c-txt-prim">Themen</span>
+      </div>
+      <!-- <div class="nav" [ngClass]="{'active': currentNav == 'Questions' || currentNav == 'Edit Question' || currentNav == 'Add Question'}" (click)="setNav('Questions')">
+        <span class="c-txt-prim">Fragen</span>
+      </div> -->
+      <div class="nav" [ngClass]="{'active': currentNav == 'Quiz' || currentNav == 'Quiz Started'}" (click)="setNav('Quiz')">
+        <span class="c-txt-prim">Quiz</span>
+      </div>
+    </div>
+  </div>
+</div>

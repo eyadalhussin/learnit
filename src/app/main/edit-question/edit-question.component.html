@@ -1,0 +1,75 @@
+<div class="edit-question-container">
+  <!-- Controls -->
+  <div class="row d-flex justify-sb align-c">
+    <!-- Back Arrow-->
+    <div class="d-flex justify-c align-c" (click)="navigateBackToQuestions()">
+      <span class="material-symbols-outlined txt-500 txt-headline txt-prim c-p">
+        arrow_back
+      </span>
+    </div>
+    <!-- Question Name -->
+    <div class="d-flex justify-c align-c">
+      <div class="span txt-subhead txt-500 txt-prim">{{currentQuestion.id}}. {{currentQuestion.beschreibung}}</div>
+    </div>
+    <!-- Delete Question -->
+    <div class="d-flex justify-c align-c" (click)="deletingQuestion = true">
+      <span class="material-symbols-outlined txt-500 txt-headline txt-prim c-p">
+        delete
+      </span>
+    </div>
+  </div>
+  <!-- Question Info -->
+  <div class="row">
+    <!-- Description -->
+    <div class="input-area">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Beschreibung</span>
+      </div>
+      <textarea name="" id="" cols="30" rows="10"class="max-height-50 txt-400 txt-body" [value]="currentQuestion.beschreibung" #beschreibungField></textarea>
+    </div>
+  </div>
+
+  <!-- Question -->
+  <div class="row">
+    <div class="input-area">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Frage</span>
+      </div>
+      <textarea name="" id="" cols="30" rows="10" class="max-height-50 txt-400 txt-body" [value]="currentQuestion.frageStellung" #frageField></textarea>
+    </div>
+  </div>
+
+  <!-- Answer -->
+  <div class="row">
+    <div class="input-area">
+      <div class="support-text">
+        <span class="txt-body txt-sec txt-500">Antwort</span>
+      </div>
+      <textarea name="" id="" cols="30" rows="10" class="max-height-200 txt-400 txt-body" [value]="currentQuestion.antwort" #antwortField></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12" [ngClass]="{'btn-filled-prim-700': updateState == 'Aktualisieren' || updateState == 'Wird aktualisiert...', 'btn-filled-succ-700': updateState == 'Erfolgreich aktualisiert', 'btn-filled-warn-700': updateState == 'Error'}" (click)="updateQuestion(beschreibungField, frageField, antwortField)" *ngIf="!deletingQuestion">
+      <span>{{updateState}}</span>
+    </div>
+  </div>
+
+  <div class="confirm-container" *ngIf="deletingQuestion">
+    <div class="container d-flex f-direction-c f-gap-3">
+      <div class="row">
+        <div class="col-xs-12 d-flex justify-c align-c">
+          <span class="txt-title txt-prim">Frage sicher löschen?</span>
+        </div>
+      </div>
+      <div class="row d-flex justify-c align-c f-gap-3">
+        <div class="col-xs-5 btn-filled-warn-500" (click)="deleteQuestion()">
+          <span>Delete</span>
+        </div>
+        <div class="col-xs-5 btn-outlined-prim-700"(click)="deletingQuestion = false">
+          <span class="txt-prim">Cancel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,59 @@
+$display: (
+    "flex": flex,
+    "grid": grid,
+    "inline-block": inline-block,
+    "block": block,
+    "none": none,
+    "hidden": hidden
+);
+
+@each $key, $value in $display {
+    .d-#{$key}{
+        display: $value;
+    }
+};
+
+$flex_justify_values: (
+    "justify-s": flex-start,
+    "justify-e": flex-end,
+    "justify-c": center,
+    "justify-sb": space-between,
+    "justify-sa": space-around,
+);
+
+$flex_align_values: (
+    "align-stretch": stretch,
+    "align-s": start,
+    "align-e": end,
+    "align-c": center,
+);
+
+.f-direction-c{
+    flex-direction: column;
+};
+
+.f-direction-r{
+    flex-direction: r;
+};
+
+@each $key, $value in $flex_justify_values {
+    .#{$key}{
+        justify-content: $value;
+    }
+};
+
+@each $key, $value in $flex_align_values {
+    .#{$key}{
+        align-items: $value;
+    }
+};
+
+
+$flex-gap: 5px;
+
+@for $i from 1 through 10 {
+    .f-gap-#{$i}{
+        gap: $i * $flex-gap;
+    }
+}
+

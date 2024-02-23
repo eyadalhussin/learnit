@@ -1,0 +1,58 @@
+<form class="subjects-container d-flex f-direction-c f-gap-3" #subjectForm="ngForm">
+  <!-- Headline -->
+  <div class="row">
+    <div class="col-xs-12">
+      <span class="txt-headline txt-prim">Alle Themen</span>
+    </div>
+  </div>
+  <!-- //Headline -->
+
+  <div class="loader-container"  *ngIf="vorlesungen.length == 0">
+    <span class="loader"></span>
+  </div>
+
+  <!-- Subjects -->
+  <div class="themen-container">
+    <div *ngIf="vorlesungen.length > 0">
+      <div class="row d-flex justify-sb align-c p-1 custom_border height-60 hover-prim" *ngFor="let element of vorlesungen" (click)="showSubjectQuestions(element)">
+        <div class="col-xs-11">
+          <span class="txt-subhead txt-500 c-txt-prim">{{element.id}}. {{element.name}}</span>
+        </div>
+        <div class="col-xs-1 d-flex justify-c align-c">
+          <span class="material-symbols-outlined txt-headline c-txt-prim txt-500">
+            chevron_right
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //Subjects -->
+
+  <!-- Add Subject  -->
+  <div class="row">
+    <div class="custom-input-container col-xs-12 bg-sec elevation-1">
+      <input ngModel required name="subjectName" type="text" class="input-field">
+      <div class="support-text">
+        <span class="txt-caption txt-sec">Neue Vorlesung</span>
+      </div>
+    </div>
+  </div>
+  <!-- Add Subject Button -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-filled-prim-700 elevation-1" (click)="addNewSubject(subjectForm)">
+        <span>Hinzufügen</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Button for Adding multiple questions -->
+  <!-- <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-filled-warn-700 elevation-1" (click)="addMultipleQuestionsToSubject()">
+        <span>Add multiple Questions</span>
+      </div>
+    </div>
+  </div> -->
+</form>
+

@@ -1,0 +1,38 @@
+<div class="questions-container">
+   <!-- Subject Name -->
+   <div class="row d-flex justify-sb align-c">
+      <div class="col-xs-2" (click)="navigateTo('Subjects')">
+         <span class="material-symbols-outlined txt-500 txt-headline txt-prim c-p">
+            arrow_back
+          </span>
+      </div>
+      <div class="col-xs-8 d-flex justify-c align-c">
+         <span class="txt-headline txt-prim">{{currentSubject.id}}. {{currentSubject.name}}</span>
+      </div>
+      <div class="col-xs-2 d-flex justify-c align-c d-hidden">
+         <span class="material-symbols-outlined txt-500 txt-headline txt-prim c-p">
+            arrow_back
+          </span>
+      </div>
+   </div>
+   <!-- Questions -->
+   <div class="row d-flex f-direction-c f-gap-3">
+      <div class="col-xs-12">
+         <span class="txt-prim txt-title txt-500" *ngIf="currentSubject.fragen.length == 0">Noch keine Fragen
+            vorhanden</span>
+      </div>
+      <div class="col-xs-12 bg-sec d-flex justify-sb align-c border-r-1 p-h-2 height-44 elevation-1 hover-sec"
+         *ngFor="let element of currentSubject.fragen" (click)="editQuestion(element)">
+         <span class="txt-subhead txt-prim">{{element.id}}. {{element.beschreibung}}</span>
+         <span class="material-symbols-outlined txt-headline c-txt-prim txt-500">
+            expand_more
+         </span>
+      </div>
+   </div>
+
+   <!-- Add Question -->
+   <div class="col-xs-12 btn-filled-prim-700" (click)="navigateTo('Add Question')">
+      <span>Frage Hinzufügen</span>
+   </div>
+
+</div>

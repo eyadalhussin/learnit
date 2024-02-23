@@ -1,0 +1,71 @@
+@mixin button {
+    transition: 0.2s all;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border-radius: 50px;
+}
+
+@each $key, $value in $colors {
+
+    /* btn filled */
+    .btn-filled-#{$key} {
+        @include button;
+        background-color: $value;
+        color: white;
+        box-shadow: 0px 2px 10px rgba($color: $value, $alpha: 0.15);
+
+        &:hover {
+            background-color: lighten($value, 5%);
+        }
+
+        &:active{
+            transform: scale(0.9);
+        }
+
+        span {
+            user-select: none;
+        }
+    }
+
+    .btn-outlined-#{$key} {
+        @include button;
+        border: 2px solid $value;
+        color: $value;
+
+        &:hover {
+            background-color: $value;
+
+            span {
+                color: white;
+            }
+        }
+
+        &:active{
+            transform: scale(0.9);
+        }
+
+        span {
+            user-select: none;
+        }
+    }
+
+
+}
+
+/*
+
+the size of the button wil be determined with the col value
+
+big should be full width but maxi 
+
+
+those 3 variants for each color filled and outlined
+
+filled and outlined will have different hover effects
+
+
+
+*/

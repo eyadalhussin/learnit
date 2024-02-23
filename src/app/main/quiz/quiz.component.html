@@ -1,0 +1,48 @@
+<div class="quiz-container d-flex f-direction-c f-gap-3">
+  <!-- Headline -->
+  <div class="row">
+    <div class="col-xs-12">
+      <span class="txt-headline txt-prim">Quiz</span>
+    </div>
+  </div>
+  <!-- //Headline -->
+
+  <!-- Subjects -->
+  <div class="themen-container">
+    <!-- Subject -->
+    <div class="row d-flex justify-sb align-c p-1 custom_border height-60" *ngFor="let element of subjects, let i = index" (click)="checkSubject(i)">
+      <div class="col-xs-11">
+        <span class="txt-subhead txt-500 c-txt-prim">{{element.id}}. {{element.name}}</span>
+      </div>
+      <!-- Checkbox -->
+      <div class="checkbox" [ngClass]="{'checked': checkedSubjects[i] == 1}">
+        <span class="material-symbols-outlined txt-title c-txt-prim txt-500" *ngIf="checkedSubjects[i] == 1">check</span>
+      </div>
+    </div>
+    <!-- //Subject -->
+  </div>
+  <!-- //Subjects -->
+
+  <!-- Shuffle -->
+  <div class="row">
+    <div class="col-xs-4 d-flex justify-s align-c f-gap-3">
+      <!-- Shuffle Text -->
+      <span class="txt-prim txt-500 txt-body">Shuffle</span>
+      <!-- Shuffle Container -->
+      <div class="shuffle-container c-p" [ngClass]="{'active':shuffle, 'inactive':!shuffle}" (click)="toggleShuffle()">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //Shuffle -->
+
+  <!-- Add Subject Button -->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="btn-filled-prim-700 elevation-1" (click)="startQuiz()">
+        <span>Start Quiz</span>
+      </div>
+    </div>
+  </div>
+  <!-- //Add Subject Button -->
+</div>

@@ -1,0 +1,8 @@
+<div class="main-container">
+    <app-subjects *ngIf="currentNav == 'Subjects'"></app-subjects>
+    <app-questions *ngIf="currentNav == 'Questions'"></app-questions>
+    <app-quiz *ngIf="currentNav == 'Quiz'"></app-quiz>
+    <app-edit-question *ngIf="currentNav == 'Edit Question'"></app-edit-question>
+    <app-add-question *ngIf="currentNav == 'Add Question'"></app-add-question>
+    <app-quiz-started *ngIf="currentNav == 'Quiz Started'"></app-quiz-started>
+</div>
